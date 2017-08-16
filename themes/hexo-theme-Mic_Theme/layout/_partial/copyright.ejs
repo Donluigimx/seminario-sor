@@ -1,0 +1,8 @@
+        <div id="copyright">
+            <% if(theme.busuanzi.enable === true ) { %>
+            	<span id="busuanzi_container_site_pv"><%- date(Date.now(), 'YYYY') %></span><br>
+              <span id="busuanzi_container_site_pv">Todos los temas tratados aquí son propiedad de la matería de <br>Seminario de Solución de Sistemas Operativos y la Universidad de Guadalajara.</span>
+			<% } else { %>
+				<span id="busuanzi_container_site_pv"> <%- date(Date.now(), 'YYYY') %> </span>
+			<% } %>
+        </div>
